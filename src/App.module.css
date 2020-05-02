@@ -1,3 +1,39 @@
-.feedbackType {
+.root {
+  margin: auto;
+  max-width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.formHeader {
+  text-align: center;
+}
+
+.formGroup {
+  margin-bottom: 1.6rem;
+}
+
+.formControl {
+  width: 100%;
+}
+
+.textarea {
+  resize: none;
   display: block;
+}
+
+.label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+  font-size: 1.6rem;
+}
+
+.form {
+  width: 100%;
+  padding: 1.6rem 3rem;
+  border: 0.1rem solid black;
 }

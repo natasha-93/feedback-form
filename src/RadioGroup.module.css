@@ -1,0 +1,11 @@
+.radio {
+  margin: 0 0.8rem;
+}
+
+.radio:first-of-type {
+  margin-left: 0;
+}
+
+.label {
+  font-size: 1.2rem;
+}
